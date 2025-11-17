@@ -14,6 +14,7 @@
       <div class="logo">S.K Hosna Payel</div>
 
       <!-- Checkbox hack -->
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
       <input type="checkbox" id="nav-toggle" class="nav-toggle">
       <label for="nav-toggle" class="hamburger">&#9776;</label>
 
@@ -27,10 +28,10 @@
   </header>
 
   <!-- About Section -->
- <section id="about" class="about">
+ <section id="about" class="about reveal">
   <div class="container about-container">
     <!-- Text -->
-    <div class="about-text">
+    <div class="about-text reveal-child">
       <h1>Hello, I'm <span>S.K Hosna Payel</span></h1>
       <h2>MERN Stack Developer</h2>
       <p>
@@ -42,17 +43,17 @@
     </div>
 
     <!-- Image -->
-    <div class="about-image">
+    <div class="about-image reveal-child">
       <img src="payel.png" alt="S.K Hosna Payel">
     </div>
   </div>
 </section>
 
   <!-- Skills Section -->
-  <section id="skills" class="skills">
+  <section id="skills" class="skills reveal">
     <div class="container">
-      <h2>Skills</h2>
-      <ul class="skill-list">
+      <h2 class="reveal-child">Skills</h2>
+      <ul class="skill-list reveal-child">
         <!-- <li>MongoDB</li> -->
         <!-- <li>Express.js</li> -->
         <li>React.js</li>
@@ -63,14 +64,14 @@
     </div>
   </section>
 
-<section id="education" class="education">
+<section id="education" class="education reveal">
   <div class="container">
-    <h2>Education</h2>
-    <div class="edu-item">
+    <h2 class="reveal-child">Education</h2>
+    <div class="edu-item reveal-child">
       <h3>Bhalukia Palong High School</h3>
-      <p>Group: Science | CGPA: 4.63 | Graduation Year: 2020</p>
+      <p>Group: Science | CGPA: 4.63 | Graduation Year: 2021</p>
     </div>
-    <div class="edu-item">
+    <div class="edu-item reveal-child">
       <h3>Cox's Bazar Polytechnic Institute</h3>
       <p>Department: Computer Science & Technology | Diploma | Graduation Year: 2024</p>
     </div>
@@ -79,15 +80,15 @@
 
 
   <!-- Contact Section -->
- <section id="contact" class="contact">
+ <section id="contact" class="contact reveal">
   <div class="container">
-    <h2>Contact Me</h2>
-    <ul class="contact-info">
+    <h2 class="reveal-child">Contact Me</h2>
+    <ul class="contact-info reveal-child">
       <li>Email: skhosnap@gmail.com</li>
       <li>Phone: 01327478534</li>
       <li>Location: Dhaka, Bangladesh</li>
     </ul>
-    <div class="social-links">
+    <div class="social-links reveal-child">
       <a href="https://www.facebook.com/share/1GSuP2rJnm/" target="_blank">Facebook</a>
       <a href="https://www.instagram.com/s.khosna?igsh=dHcyY2RpYTJlMzR4" target="_blank">Instagram</a>
       <a href="https://github.com/hosnapayel" target="_blank">GitHub</a>
@@ -99,6 +100,7 @@
 
   <!-- Footer -->
   <footer>
+    <script src="script.js"></script>
     <p>© 2025 S.K Hosna Payel. All Rights Reserved.</p>
   </footer>
 
